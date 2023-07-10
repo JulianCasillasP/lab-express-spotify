@@ -1,0 +1,88 @@
+body {
+  background-image: url("/public/images/spotify-background.jpeg");
+  background-size: cover;
+  background-color: #000;
+  color: #fff;
+  font-family: Arial, sans-serif;
+  margin: 0;
+  padding: 0;
+}
+
+.container {
+  max-width: 1200px;
+  margin: 0 auto;
+  padding: 20px;
+}
+
+h1 {
+  font-size: 24px;
+  font-weight: bold;
+  margin-bottom: 20px;
+}
+
+h2 {
+  font-size: 20px;
+  font-weight: bold;
+  margin-bottom: 10px;
+}
+
+img {
+  max-width: 100%;
+  height: auto;
+  margin-bottom: 10px;
+}
+
+a {
+  color: #1db954;
+  text-decoration: none;
+}
+
+form {
+  display: flex;
+  align-items: center;
+  margin-bottom: 20px;
+}
+
+input[type="text"] {
+  flex: 1;
+  padding: 10px;
+  font-size: 16px;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #1db954;
+  color: #fff;
+  border: none;
+  font-size: 16px;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #1ed760;
+}
+
+.albums-container {
+  display: grid;
+  grid-template-columns: repeat(auto-fill, minmax(200px, 1fr));
+  grid-gap: 20px;
+}
+
+.album-card {
+  text-align: center;
+}
+
+.tracks-container {
+  margin-top: 20px;
+}
+
+.track-card {
+  margin-bottom: 20px;
+  padding: 10px;
+  background-color: #333;
+}
+
+audio {
+  width: 100%;
+  margin-top: 10px;
+}
